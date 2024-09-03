@@ -1,5 +1,8 @@
 # Videojuegos
 
+practica crear un sitio web con angular bustrac
+crear un sitio con estructura basica con angular y estilizarlo con bustrac
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
 ## Development server
