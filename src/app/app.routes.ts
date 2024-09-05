@@ -5,13 +5,13 @@ import { FooterComponent } from './footer/footer.component';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-    {path: 'topgames', component: TopGamesComponent},
-    {path: 'landing', component: LandingPageComponent},
-    {path: 'footer', component:FooterComponent}
+    { path: 'topgames', component: TopGamesComponent },
+    { path: '', component: LandingPageComponent },
+    { path: 'footer', component: FooterComponent }
 ];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
-  })
-  export class AppRoutingModule { }
+})
+export class AppRoutingModule { }
