@@ -10,7 +10,7 @@ export const routes: Routes = [
     { path: '', component: LandingPageComponent },
     { path: 'footer', component: FooterComponent },
     { path: 'about', component: AboutComponent },
-    { path: '', redirectTo: '' },
+    { path: '**', redirectTo: '' },
 
 ];
 
