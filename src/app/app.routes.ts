@@ -9,7 +9,8 @@ export const routes: Routes = [
     { path: 'topgames', component: TopGamesComponent },
     { path: '', component: LandingPageComponent },
     { path: 'footer', component: FooterComponent },
-    { path: 'about', component: AboutComponent }
+    { path: 'about', component: AboutComponent },
+    { path: '', redirectTo: '' },
 
 ];
 
